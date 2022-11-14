@@ -12,10 +12,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.name, h1::after {
+.name,
+h1::after {
   padding: 16px 20px;
   font-size: 40px;
-  color: #37EBF3 !important;
+  color: #37ebf3 !important;
   letter-spacing: 3px;
   line-height: 1px;
   outline: transparent;
@@ -211,8 +212,9 @@ nav {
   color: #e03d63;
 }
 
-.hero-img, .background-2 {
-  background-image: url(./images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+.hero-img,
+.background-2 {
+  background-image: url(./image/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
   background-position: center;
   background-color: rgba(11, 8, 39, 0.68);
   background-size: cover;
@@ -227,7 +229,7 @@ nav {
 }
 
 .name {
-  color: #37EBF3 !important;
+  color: #37ebf3 !important;
 }
 
 .title {
@@ -238,8 +240,9 @@ nav {
   background-color: black;
 }
 
-.about-me, .social h2 {
-  color: #37EBF3;
+.about-me,
+.social h2 {
+  color: #37ebf3;
 }
 
 #about span {
@@ -251,7 +254,7 @@ nav {
 }
 
 .portfolio {
-  color: #37EBF3;
+  color: #37ebf3;
 }
 
 .aspectRatioBox {

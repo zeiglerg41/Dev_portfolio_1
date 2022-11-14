@@ -1,14 +1,13 @@
-
 // sass color presets
 $clr-primary: #e03d63;
-$clr-secondary: #37EBF3;
+$clr-secondary: #37ebf3;
 $clr-tertiary: #e6e624;
 
 // body
 body {
-  font-family: 'Share Tech', sans-serif;
+  font-family: "Share Tech", sans-serif;
   font-size: larger;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 .container {
   max-width: 1080px;
@@ -18,95 +17,95 @@ html {
   scroll-behavior: smooth;
 }
 
-.name, h1::after {
- padding: 16px 20px;
- font-size: 40px;
- color: $clr-secondary !important;
- letter-spacing: 3px;
- line-height: 1px;
- outline: transparent;
- position: relative;
+.name,
+h1::after {
+  padding: 16px 20px;
+  font-size: 40px;
+  color: $clr-secondary !important;
+  letter-spacing: 3px;
+  line-height: 1px;
+  outline: transparent;
+  position: relative;
 }
 
 .name h1::after {
- --slice-0: inset(50% 50% 50% 50%);
- --slice-1: inset(80% -6px 0 0);
- --slice-2: inset(50% -6px 30% 0);
- --slice-3: inset(10% -6px 85% 0);
- --slice-4: inset(40% -6px 43% 0);
- --slice-5: inset(80% -6px 5% 0);
- content: "Garrett Zeigler";
- position: absolute;
- top: 0;
- left: 0;
- right: 0;
- bottom: 0;
- clip-path: var(--slice-0);
- animation: 5s glitch infinite;
- animation-timing-function: steps(2, end);
-
+  --slice-0: inset(50% 50% 50% 50%);
+  --slice-1: inset(80% -6px 0 0);
+  --slice-2: inset(50% -6px 30% 0);
+  --slice-3: inset(10% -6px 85% 0);
+  --slice-4: inset(40% -6px 43% 0);
+  --slice-5: inset(80% -6px 5% 0);
+  content: "Garrett Zeigler";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  clip-path: var(--slice-0);
+  animation: 5s glitch infinite;
+  animation-timing-function: steps(2, end);
 }
 
 @keyframes glitch {
- 0% {
-  clip-path: var(--slice-1);
-  transform: translate(-30px, 5px);
- }
+  0% {
+    clip-path: var(--slice-1);
+    transform: translate(-30px, 5px);
+  }
 
- 2% {
-  clip-path: var(--slice-3);
-  transform: translate(-40px, 20px);
- }
+  2% {
+    clip-path: var(--slice-3);
+    transform: translate(-40px, 20px);
+  }
 
- 4% {
-  clip-path: var(--slice-1);
-  transform: translate(0px, -5px);
- }
+  4% {
+    clip-path: var(--slice-1);
+    transform: translate(0px, -5px);
+  }
 
- 6% {
-  clip-path: var(--slice-3);
-  transform: translate(-30px, 30px);
- }
+  6% {
+    clip-path: var(--slice-3);
+    transform: translate(-30px, 30px);
+  }
 
- 8% {
-  clip-path: var(--slice-2);
-  transform: translate(0px, 0px);
- }
+  8% {
+    clip-path: var(--slice-2);
+    transform: translate(0px, 0px);
+  }
 
- 10% {
-  clip-path: var(--slice-3);
-  transform: translate(-20px, 10px);
- }
+  10% {
+    clip-path: var(--slice-3);
+    transform: translate(-20px, 10px);
+  }
 
- 12% {
-  clip-path: var(--slice-4);
-  transform: translate(20px, 0px);
- }
+  12% {
+    clip-path: var(--slice-4);
+    transform: translate(20px, 0px);
+  }
 
- 14% {
-  clip-path: var(--slice-2);
-  transform: translate(-50px, -40px);
- }
+  14% {
+    clip-path: var(--slice-2);
+    transform: translate(-50px, -40px);
+  }
 
- 16% {
-  clip-path: var(--slice-5);
-  transform: translate(-10px, 0px);
- }
+  16% {
+    clip-path: var(--slice-5);
+    transform: translate(-10px, 0px);
+  }
 
- 18% {
-  clip-path: var(--slice-1);
-  transform: translate(0px, 0px);
- }
+  18% {
+    clip-path: var(--slice-1);
+    transform: translate(0px, 0px);
+  }
 
- 20% {
-  clip-path: var(--slice-1);
-  transform: translate(0);
- }
+  20% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
 
- 100% {
-  clip-path: var(--slice-1);
-  transform: translate(0);
- }
+  100% {
+    clip-path: var(--slice-1);
+    transform: translate(0);
+  }
 }
 
 // navbar
@@ -138,9 +137,9 @@ nav {
   border-radius: 5px;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   nav {
-      max-height: none;
+    max-height: none;
   }
 }
 
@@ -154,8 +153,9 @@ nav {
   color: $clr-primary;
 }
 // hero
-.hero-img, .background-2{
-  background-image: url(./images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+.hero-img,
+.background-2 {
+  background-image: url(./image/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
   background-position: center;
   background-color: rgba(11, 8, 39, 0.68);
   background-size: cover;
@@ -163,11 +163,11 @@ nav {
   background-blend-mode: multiply;
   background-attachment: fixed;
 }
- .hero {
+.hero {
   margin-top: 180px !important;
   margin-bottom: 140px;
- }
-.name{
+}
+.name {
   color: $clr-secondary !important;
 }
 
@@ -180,8 +180,9 @@ nav {
   background-color: black;
 }
 
-.about-me, .social h2 {
-  color: $clr-secondary
+.about-me,
+.social h2 {
+  color: $clr-secondary;
 }
 #about span {
   font-size: 20px;
@@ -200,34 +201,34 @@ nav {
   padding-top: calc(2 / 3 * 100%);
   background-size: cover;
   background-position: center;
-  opacity: .7;
-  transition: ease-in-out .3s;
+  opacity: 0.7;
+  transition: ease-in-out 0.3s;
 }
 
 .card {
-  transition: box-shadow .3s;
-  border-radius:10px; 
+  transition: box-shadow 0.3s;
+  border-radius: 10px;
   border: 1px solid $clr-primary;
   background: rgb(0, 0, 0);
-  float: left; 
+  float: left;
 }
 
 .card:hover {
-  box-shadow: 0 0 25px rgba(33,33,33,.2); 
+  box-shadow: 0 0 25px rgba(33, 33, 33, 0.2);
   background-color: #68091f !important;
   .aspectRatioBox {
     opacity: 1;
   }
 }
 
-.card a{
+.card a {
   text-decoration: none !important;
 }
 
-.card a{
+.card a {
   color: $clr-primary;
 }
 
-.card hr{
+.card hr {
   height: 2px;
 }
